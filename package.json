@@ -1,0 +1,16 @@
+{
+  "name": "koa2-demo",
+  "version": "1.0.0",
+  "description": "store some koa2 demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "benyuwan@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.3.0",
+    "koa-mysql-session": "0.0.2",
+    "koa-session-minimal": "^3.0.4"
+  }
+}
