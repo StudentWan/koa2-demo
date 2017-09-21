@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title><%= title%></title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        .btn {
+            width: 100px;
+            height: 40px;
+        }
+
+        .preview-pic {
+            width: 300px;
+            min-height: 300px;
+            border: 1px #f0f0f0 solid;
+        }
+    </style>
+</head>
+<body>
+    <button class="btn" id="upload-pic-btn">上传图片</button>
+    <hr />
+    <p>上传进度 <span id="upload-progress">0</span>%</p>
+    <p>上传结果图片</p>
+    <div id="pic-preview" class="preview-pic"></div>
+    <script src="/js/index.js"></script>
+</body>
+</html>
