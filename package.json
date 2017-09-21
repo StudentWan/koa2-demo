@@ -9,6 +9,7 @@
   "author": "benyuwan@gmail.com",
   "license": "ISC",
   "dependencies": {
+    "busboy": "^0.2.14",
     "koa": "^2.3.0",
     "koa-mysql-session": "0.0.2",
     "koa-session-minimal": "^3.0.4"
