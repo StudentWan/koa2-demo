@@ -15,6 +15,7 @@
     "koa-mysql-session": "0.0.2",
     "koa-session-minimal": "^3.0.4",
     "koa-static": "^4.0.1",
-    "koa-views": "^6.0.2"
+    "koa-views": "^6.0.2",
+    "mysql": "^2.14.1"
   }
 }
